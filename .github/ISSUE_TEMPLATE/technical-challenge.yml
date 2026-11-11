@@ -1,0 +1,58 @@
+name: Technical challenge or counterexample
+description: Identify a failure mode, counterexample, or competing architecture
+title: "[Challenge] "
+labels:
+  - technical-review
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Claim, assumption, or component challenged
+    validations:
+      required: true
+  - type: textarea
+    id: challenge
+    attributes:
+      label: Challenge
+      description: Describe the failure mode, counterexample, or alternative explanation.
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Conditions and scope
+      description: State the workload, hardware, geography, trust model, time period, or other boundaries.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or reasoning
+      description: Link data, research, specifications, measurements, or a reproducible argument.
+    validations:
+      required: true
+  - type: textarea
+    id: falsification
+    attributes:
+      label: What would change your assessment?
+      description: Identify a measurement, result, or condition that would weaken this challenge.
+    validations:
+      required: true
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Relevant interests or affiliations
+      description: Disclose material interests or write none.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I welcome an evidence-based response and correction of my own claims.
+          required: true
+        - label: This submission follows the political-neutrality policy.
+          required: true
+        - label: I have identified the geographic limits of this challenge.
+          required: true

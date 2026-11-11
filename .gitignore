@@ -1,0 +1,33 @@
+~$*
+*.tmp
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+build/
+secrets/
+private/
+*.key
+*.pem
+.env
+.env.*
+
+# Local drafting and publishing notes
+PUBLISHING_CHECKLIST.md
+DISCUSSION_STARTERS.md
+DECISIONS.md
+CONTRIBUTORS.md
+SECURITY.md
+
+# Superseded local Word copy
+releases/distributed-ai-infrastructure-working-draft-v0.1.docx
+releases/whitepaper-working-draft.docx
+releases/whitepaper-working-draft-v0.1-review.docx
+releases/whitepaper-working-draft-v0.1.docx
+releases/whitepaper-working-draft-v0.1-numbered-headings.docx

@@ -1,0 +1,71 @@
+name: Factual correction
+description: Correct or narrow a specific factual claim
+title: "[Correction] "
+labels:
+  - evidence
+  - correction
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Criticism is a contribution. Please identify the exact claim and provide the strongest available source.
+  - type: input
+    id: location
+    attributes:
+      label: Passage or section
+      description: Identify the heading and quote only the necessary text.
+    validations:
+      required: true
+  - type: dropdown
+    id: claim_type
+    attributes:
+      label: Claim type
+      options:
+        - Observed fact
+        - Estimate or forecast
+        - Technical assumption
+        - Design proposal
+        - Normative judgment
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction or limitation
+      description: Explain what is inaccurate, overstated, incomplete, or improperly scoped.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Provide primary sources where possible, including title, issuer, date, and link.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Proposed change
+      description: Suggest replacement language or a test that could resolve the question.
+    validations:
+      required: false
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Relevant interests or affiliations
+      description: Disclose any material employment, funding, ownership, advocacy, or vendor relationship, or write none.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have separated evidence from inference and opinion.
+          required: true
+        - label: This submission follows the political-neutrality policy.
+          required: true
+        - label: I have stated the geographic scope and have not treated a local result as universal.
+          required: true
+        - label: I have not included confidential, personal, or unlawfully obtained information.
+          required: true

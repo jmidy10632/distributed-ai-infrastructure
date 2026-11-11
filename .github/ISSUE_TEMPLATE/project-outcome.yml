@@ -1,0 +1,93 @@
+name: Project outcome record
+description: Submit a documented data-center project, permitting, ballot, or withdrawal outcome
+title: "[Outcome] "
+labels:
+  - outcome-registry
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project and location
+      description: Include city or locality, region or state, and country.
+    validations:
+      required: true
+  - type: input
+    id: proponent
+    attributes:
+      label: Proponent or applicant
+    validations:
+      required: false
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Outcome
+      options:
+        - Proposed
+        - Approved
+        - Approved with conditions
+        - Delayed
+        - Denied
+        - Withdrawn
+        - Relocated
+        - Reduced or redesigned
+        - Paused or subject to moratorium
+        - Approved or rejected by ballot
+        - Constructed
+        - Operating
+        - Canceled for another reason
+        - Unclear
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Decision date
+      description: Use YYYY-MM-DD when known.
+    validations:
+      required: true
+  - type: input
+    id: authority
+    attributes:
+      label: Decision authority
+      description: Identify the election office, planning body, court, utility, applicant, or other actor.
+    validations:
+      required: true
+  - type: textarea
+    id: primary_source
+    attributes:
+      label: Primary or authoritative source
+      description: Link the filing, minutes, ballot record, order, permit, withdrawal, or applicant statement.
+    validations:
+      required: true
+  - type: textarea
+    id: factors
+    attributes:
+      label: Documented contributing factors
+      description: Include only factors supported by the record and distinguish them from inference.
+    validations:
+      required: true
+  - type: textarea
+    id: opposition
+    attributes:
+      label: Documented public-opposition activity
+      description: Describe the activity and its evidence without partisan characterization.
+    validations:
+      required: false
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: Conflicting evidence and uncertainty
+      description: Note subsequent events, disputed causation, and missing records.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have not described this outcome as a party, candidate, or industry victory or defeat.
+          required: true
+        - label: This submission follows the political-neutrality policy.
+          required: true
+        - label: I have preserved the local context and have not generalized this outcome beyond its evidence.
+          required: true

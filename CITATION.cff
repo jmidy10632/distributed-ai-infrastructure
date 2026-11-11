@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, please cite it as a working draft and include the version."
+title: "Distributed Artificial Intelligence Infrastructure: A Decentralized Alternative to Concentrated Data Center Development"
+type: report
+authors:
+  - family-names: Midyette
+    given-names: "John D."
+version: "0.1"
+date-released: 2026-11-09
+license: CC-BY-4.0
+abstract: "An exploratory working paper examining whether open distributed computing can reduce unnecessary dependence on concentrated AI data centers while improving data control and accounting for environmental and community constraints."
+keywords:
+  - decentralized artificial intelligence
+  - distributed computing
+  - open source
+  - data centers
+  - grid capacity
+  - environmental constraints
+  - global infrastructure
+  - geographic neutrality

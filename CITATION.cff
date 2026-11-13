@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-message: "If you use or discuss this work, please cite it as a working draft and include the version."
+message: "If you use or discuss this work, please cite the working paper described in preferred-citation."
 title: "Distributed Artificial Intelligence Infrastructure: A Decentralized Alternative to Concentrated Data Center Development"
-type: report
 authors:
   - family-names: Midyette
     given-names: "John D."
 version: "0.1"
-date-released: 2026-11-13
+date-released: "2026-11-13"
 license: CC-BY-4.0
+repository-code: "https://github.com/jmidy10632/distributed-ai-infrastructure"
 abstract: "An exploratory working paper examining whether open distributed computing can reduce unnecessary dependence on concentrated AI data centers while improving data control and accounting for environmental and community constraints."
 keywords:
   - decentralized artificial intelligence
@@ -18,3 +18,13 @@ keywords:
   - environmental constraints
   - global infrastructure
   - geographic neutrality
+preferred-citation:
+  type: report
+  authors:
+    - family-names: Midyette
+      given-names: "John D."
+  title: "Distributed Artificial Intelligence Infrastructure: A Decentralized Alternative to Concentrated Data Center Development"
+  version: "0.1"
+  year: 2026
+  status: preprint
+  url: "https://github.com/jmidy10632/distributed-ai-infrastructure"

@@ -265,7 +265,7 @@ The alternative is a governed system for making better use of computing resource
 
 # Review and Citation
 
-This document is a working draft. Reviewers should cite the author, title, version, and date when referring to it: John D. Midyette, Distributed Artificial Intelligence Infrastructure, working draft version 0.1, November 2026. External licensing and formal publication terms should be established before a public release.
+This document is a working draft. When referring to this version, cite: John D. Midyette, *Distributed Artificial Intelligence Infrastructure*, working draft version 0.1, November 2026. This working draft and the repository documentation are available under the [Creative Commons Attribution 4.0 International License](LICENSE). Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Any future software implementation will be released under a separately identified software license.
 
 # References
 

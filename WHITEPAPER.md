@@ -28,7 +28,7 @@ This paper grew from that question. It does not claim that every data center is 
 
 # Abstract
 
-Artificial intelligence is commonly treated as inseparable from the construction of increasingly large data centers. That assumption should be reconsidered. Centralized facilities remain appropriate for frontier model training and other workloads that require tightly coupled accelerators. A substantial share of practical artificial intelligence work can nevertheless be performed by smaller models running on distributed hardware.
+Artificial intelligence is commonly treated as inseparable from the construction of increasingly large data centers. That assumption should be reconsidered. Centralized facilities remain appropriate for frontier model training and other workloads that require tightly coupled accelerators. Some practical artificial intelligence workloads can nevertheless be performed by smaller models running on distributed hardware.
 
 Opposition to data center development has become a material infrastructure constraint. Communities have objected to projects because of electricity and water requirements, noise, air emissions, land use changes, transmission construction, utility costs, and the proximity of industrial facilities to homes. Numerous projects have consequently been withdrawn, denied, delayed, relocated, or reduced in scale. These outcomes show that the costs and benefits of concentrated computing are often distributed unevenly.
 
@@ -42,7 +42,7 @@ Demand for artificial intelligence computation is growing more rapidly than the 
 
 The practical limitation is not simply the amount of electricity generated over an entire year. A data center requires sufficient power at a specific location, through specific transmission lines, substations, transformers, and distribution equipment, at the time the facility expects to operate. Generation located elsewhere does not solve a local capacity constraint unless the required transmission capability also exists.
 
-The Department of Energy has identified a pressing need for additional transmission infrastructure due in part to load growth from data centers and other large industrial users. The North American Electric Reliability Corporation has also identified rapidly growing computational loads as a reliability and planning concern.[2][3]
+In its 2026 draft National Transmission Needs Study, the Department of Energy identified a pressing need for additional transmission infrastructure due in part to load growth from data centers and other large industrial users. The North American Electric Reliability Corporation has also identified rapidly growing computational loads as a reliability and planning concern.[2][3]
 
 The electric grid is not uniformly incapable of supporting additional data centers. It is also not reasonable to assume that every proposed facility can be supported in every proposed location on the schedule sought by its developer. New generation, high voltage transmission, substations, and large transformers often require substantially more time to plan and build than computing campuses.
 
@@ -61,9 +61,9 @@ Public opposition to data center projects is sometimes described as resistance t
 
 Under those conditions, opposition can reflect a reasonable assessment that local costs have not been fully disclosed, mitigated, or balanced by durable local benefits. Communities are entitled to ask who receives the benefits, who bears the risks, and what happens if resource projections or operating assumptions prove inaccurate.
 
-No single authoritative registry captures every canceled or opposed data center development. Available research nevertheless shows a clear pattern. An Electric Power Research Institute associated study reported that at least 25 United States projects were canceled due to local opposition in 2025, compared with six in 2024 and two in 2023.[4]
+No single authoritative registry captures every canceled or opposed data center development. Available research nevertheless shows a clear pattern. An Electric Power Research Institute community-centered study cited a Heatmap Pro review reporting that at least 25 United States projects were canceled due to local opposition in 2025, compared with six in 2024 and two in 2023.[4]
 
-Representative cases include a proposed 14 billion dollar development in Arizona that was withdrawn following opposition concerning noise, building scale, and local resources; a proposed 1.3 billion dollar campus in Chesterton, Indiana, that was withdrawn after residents raised concerns involving air, water, electricity, wetlands, wildlife, and proximity to homes; and a facility proposed for Monterey Park, California, that was withdrawn after sustained opposition and a local moratorium.[5][6][7]
+Representative cases include a proposed 14 billion dollar development in Arizona that was withdrawn following opposition concerning noise, building scale, and local resources; a proposed 1.3 billion dollar campus in Chesterton, Indiana, that was withdrawn after residents raised concerns involving air, water, electricity, wetlands, wildlife, and property values; and a facility proposed for Monterey Park, California, that was withdrawn after sustained opposition and a local moratorium.[5][6][7]
 
 Some withdrawn projects return in smaller form or move to another location. That does not invalidate the pattern. It shows that public opposition changes project scale, siting, conditions, and feasibility. If the same infrastructure model repeatedly encounters opposition across unrelated communities, the appropriate response is to examine the architecture as well as the approval process.
 
@@ -87,7 +87,7 @@ Data centers commonly use stationary engines or turbines for primary or backup p
 
 Cooling equipment, transformers, generators, and electrical infrastructure may also produce continuous or intermittent noise. The effect is site specific, but proximity to residences makes it a legitimate engineering and siting consideration.
 
-Land impacts extend beyond the data center parcel. A campus may require new substations, transmission corridors, access roads, pipelines, or generation facilities. Transmission development can involve negotiated easements and, under defined legal processes, court ordered eminent domain. This authority generally belongs to qualifying infrastructure entities rather than the data center operator, but the practical effect on a landowner can be the same.[10]
+Land impacts extend beyond the data center parcel. A campus may require new substations, transmission corridors, access roads, pipelines, or generation facilities. In the United States, transmission development can involve negotiated easements and, under defined legal processes, court ordered eminent domain. This authority generally belongs to qualifying infrastructure entities rather than the data center operator, but the practical effect on a landowner can be the same.[10]
 
 ## 3.4. The Sustainability Test
 
@@ -271,7 +271,7 @@ This document is a working draft. When referring to this version, cite: John D. 
 
 [1] Lawrence Berkeley National Laboratory. United States Data Center Energy Usage Report 2025 Update. 2026. [Access source](https://www.energy.gov/documents/united-states-data-center-energy-usage-report-2025-update)
 
-[2] United States Department of Energy. National Transmission Needs Study. [Access source](https://www.energy.gov/oe/national-transmission-needs-study)
+[2] United States Department of Energy. Draft National Transmission Needs Study. 2026. [Access source](https://www.energy.gov/oe/national-transmission-needs-study)
 
 [3] North American Electric Reliability Corporation. Large Loads Action Plan. [Access source](https://www.nerc.com/initiatives/large-loads-action-plan)
 
@@ -289,6 +289,6 @@ This document is a working draft. When referring to this version, cite: John D. 
 
 [10] United States Department of Energy. Frequently Asked Questions on the National Interest Electric Transmission Corridor Designation Process. [Access source](https://www.energy.gov/oe/frequently-asked-questions-national-interest-electric-transmission-corridor-designation-process)
 
-[11] International Telecommunication Union. Facts and Figures 2026. [Access source](https://www.itu.int/itu-d/reports/statistics/2026/10/13/ff26-subscriptions/)
+[11] International Telecommunication Union. Facts and Figures 2026. [Access source](https://www.itu.int/itu-d/reports/statistics/facts-figures-2026/)
 
-[12] Zhang and others. EdgeShard Efficient Large Language Model Inference by Collaborative Edge Computing. IEEE Internet of Things Journal. 2025. [Access source](https://research.polyu.edu.hk/en/publications/edgeshard-efficient-llm-inference-via-collaborative-edge-computin/)
+[12] Zhang and others. EdgeShard Efficient Large Language Model Inference via Collaborative Edge Computing. IEEE Internet of Things Journal. 2025. [Access source](https://research.polyu.edu.hk/en/publications/edgeshard-efficient-llm-inference-via-collaborative-edge-computin/)

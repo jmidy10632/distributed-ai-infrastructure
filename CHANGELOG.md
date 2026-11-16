@@ -2,6 +2,14 @@
 
 All material changes to the working paper and collaboration framework will be recorded here.
 
+## Unreleased
+
+### Added
+
+- A limited discussion of two recent Microsoft patent disclosures involving opportunistic edge micro-training and hybrid edge-cloud emulation and orchestration.
+- Evidence-ledger entries that classify the disclosures as possible technical approaches rather than proof of deployment, performance, environmental benefit, or interoperability.
+- A roadmap step for maintaining a public technology and patent landscape, preserving replaceable interfaces, and obtaining qualified patent review before adopting potentially covered mechanisms.
+
 ## 0.1 - 2026-11-09
 
 ### Added

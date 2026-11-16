@@ -103,6 +103,12 @@ A single consumer device is not a substitute for a tightly interconnected accele
 
 The distributed ecosystem nevertheless represents a significant resource for workloads that can run locally, divide into independent tasks, use smaller or quantized models, tolerate opportunistic scheduling, or move to another node when a device becomes unavailable. Research into collaborative edge inference has demonstrated that neural network workloads can be partitioned across heterogeneous devices.[12]
 
+## 4.1. Recent Industry Approaches
+
+Recent United States patent publications demonstrate commercial investigation of portions of this design space. Microsoft Technology Licensing, LLC's US Patent 12,792,414 B2 describes opportunistic machine-learning micro-training across participating edge devices, including workload decomposition, device-aware task sizing, resource and thermal monitoring, result validation, and asynchronous aggregation.[13] A separate Microsoft patent application, US 2026/0359087 A1, describes emulating combinations of edge and cloud components to evaluate performance tradeoffs and generate orchestration logic for hybrid deployments.[14]
+
+These disclosures present possible technical approaches. They are not evidence of deployed performance, environmental benefit, interoperability, or an open implementation. They should inform the project's technology-landscape and design review without becoming required components of an open standard. Any reference implementation should preserve replaceable mechanisms and receive qualified patent review before incorporating methods that may be covered by patent claims.
+
 # 5. Open Distributed Compute Fabric
 
 The proposed alternative is an Open Distributed Compute Fabric. It is a standards based system that coordinates independently controlled computing resources without requiring owners to surrender permanent control of their hardware or data. The fabric would route work across four resource tiers.
@@ -292,3 +298,7 @@ This document is a working draft. When referring to this version, cite: John D. 
 [11] International Telecommunication Union. Facts and Figures 2026. [Access source](https://www.itu.int/itu-d/reports/statistics/facts-figures-2026/)
 
 [12] Zhang and others. EdgeShard Efficient Large Language Model Inference via Collaborative Edge Computing. IEEE Internet of Things Journal. 2025. [Access source](https://research.polyu.edu.hk/en/publications/edgeshard-efficient-llm-inference-via-collaborative-edge-computin/)
+
+[13] United States Patent and Trademark Office. Challapally. Opportunistic Micro-Training on Edge Devices Using Spare GPU Utilization. US Patent 12,792,414 B2. November 10 2026. [Access source](https://patentsgazette.uspto.gov/week45/OG/html/1552-2/US12792414-20261110.html)
+
+[14] United States Patent and Trademark Office. Patidar and others. Edge Artificial Intelligence Emulator Engine in a Cloud Computing System. US Patent Application Publication 2026/0359087 A1. November 12 2026. [Access source](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260359087)

@@ -16,6 +16,12 @@ The immediate work is to verify every important source, correct unsupported clai
 
 If the premise survives review, contributors should define the workloads the system is intended to support, the workloads it should reject, and the minimum requirements for identity, security, privacy, reliability, energy accounting, data control, and interoperability. These requirements should remain neutral about vendors, regions, and particular implementations.
 
+## Review the technology and patent landscape
+
+Before implementation choices become part of the proposed standard, contributors should maintain a public record of relevant research, open-source projects, standards, patents, and patent applications. A technical disclosure can identify a possible mechanism or an area of active development, but it does not by itself establish tested performance, environmental benefit, interoperability, product availability, or freedom to implement.
+
+The standard should define neutral and replaceable interfaces and favor mechanisms that can be implemented openly on reasonable and clearly documented terms. Known patent claims and licensing questions should be recorded without presenting the project as a source of legal conclusions. Qualified patent review should occur before the project adopts potentially covered code or makes a potentially covered mechanism necessary for conformance.
+
 ## Next: define a fair test
 
 A small pilot should compare a centralized and distributed approach using the same workload and quality target. The comparison should include cost, latency, throughput, energy, network overhead, security, and operational effort.

@@ -18,6 +18,8 @@ The current ledger is weighted toward United States sources. That is a limitatio
 | 10 | Transmission corridors and eminent domain | Government guidance | Cited; legal-scope review needed | Verify authority, jurisdictional limits, and distinction from developer powers |
 | 11 | Global connectivity and device distribution | Intergovernmental statistics | Cited; verification pending | Confirm 2026 figures and avoid equating subscriptions with compute nodes |
 | 12 | Collaborative edge inference | Peer-reviewed technical paper | Cited; reproducibility review needed | Confirm publication status, benchmark conditions, hardware, and limitations |
+| 13 | Opportunistic edge micro-training | Issued United States patent | Cited; technical disclosure only | Review claim scope, supporting experiments, jurisdiction, patent-family status, and licensing implications; do not treat the disclosure as deployment evidence |
+| 14 | Hybrid edge-cloud emulation and orchestration | Published United States patent application | Cited; technical disclosure only | Track examination and legal status, distinguish the proposed architecture from validated performance, and review claim scope before considering an implementation |
 
 ## What the status words mean
 
